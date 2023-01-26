@@ -3,6 +3,11 @@ trigger:
 
 variables:
   buildConfiguration: 'Release'
+  webRepository: 'web'
+  tag: '$(Build.BuildId)'
+
+variables:
+  buildConfiguration: 'Release'
 
 stages:
 - stage: 'Build'
